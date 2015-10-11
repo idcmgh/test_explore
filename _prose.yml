@@ -32,6 +32,21 @@ prose:
           value: true
           on: "true"
           off: "false"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Tags"
+          placeholder: "Choose Tags"
+          alterable: True
+          options:
+            - name: "Meta"
+              value: "meta"
+            - name: "C++"
+              value: "cpp"
+            - name: "openGL"
+              value: "opengl"
+            - name: "Web"
+              value: "web"
     content/testimonials:
       - name: "published"
         field:
